@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 2s;
+}
+
+nav {
+    background: linear-gradient(rgba(100,100,100,0.4), rgba(150,150,150,0.1), rgba(100,100,100,0.4));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.7rem;
+    font-family: "Arial"; /* to change inshaAllah */
+    font-weight: 800;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#020122, #F96900);
+    height: 3000px;
+}
+
+.holder {
+    background: #F96900;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.holder:hover {
+    width: 200px;
+}
