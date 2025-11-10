@@ -188,6 +188,23 @@ h2 {
     justify-content: center;
 }
 
+.sponsor-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.sponsor-logo {
+    width: 200px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    transition: 0.5s;
+    margin: auto;
+}
+
 
 @keyframes fade-out {
     from {
