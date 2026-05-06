@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description.">
+    <link rel="stylesheet" href="styles.css">
+    <title>Circuit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Geologica:wght,CRSV@100..900,0&family=Mozilla+Headline:wght@200..700&family=Orbitron:wght@400..900&family=Wallpoet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <h1 class="hidden">Circuit</h1>
+
+    <div class="ctd-lb">
+        <div class="ctd-cont">
+            <span class="num"></span>
+        </div>
+    </div>
+
+    <div class="background"></div>
+
+    <div class="hero">
+        <nav>
+            <span class="logo-nav-a">
+                <img src="img/PCSSII_Robotics.png" class="rob-logo">
+                <img src="img/circuit_simple.png" class="small-logo">
+            </span>
+            <span class="nav-cont">
+                <span class="nav-item"><a href="#about">About</a></span>
+                <span class="nav-item"><a href="#schedule">Schedule</a></span>
+                <span class="nav-item"><a href="#speakers">Speakers</a></span>
+                <span class="nav-item"><a href="#sponsors">Sponsors</a></span>
+            </span>
+        </nav>
+
+        <div class="hero-inner">
+            <span class="logo-cont">
+                <img src="img/circuit_sticker.png" class="circuit-main">
+                <div class="details">
+                    <h2 class="event-st">97 Main St, Saugus</h3>
+                    <h3 class="event-date">June 6th-7th</h4>
+                    <h4 class="event-time">8 AM to 8 PM</h5>
+                </div>
+            </span>
+            <div class="hero-text">
+                <span class="hero-title">
+                    PCSSII Robotics presents its <u>latest hackathon.</u>
+                </span>
+                <span class="hero-para">
+                    Welcome to <strong>Circuit</strong>, a hackathon where speed and function are everything. Make a website, game, or hardware project, but once the time runs out, it's anyone's game. Let's race.
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cd-cont">
+
+        <div class="countdown-label">
+            <span class="txt">COUNTDOWN</span>
+        </div>
+
+        <div class="countdown">
+            <div class="countdown-inner">
+                <div class="time">
+                    <span id="days">00</span>
+                </div>
+                <div class="time">
+                    <span class="colon">:</span>
+                </div>
+                <div class="time">
+                    <span id="hours">00</span>
+                </div>
+                <div class="time">
+                    <span class="colon">:</span>
+                </div>
+                <div class="time">
+                    <span id="minutes">00</span>
+                </div>
+                <div class="time">
+                    <span class="colon">:</span>
+                </div>
+                <div class="time">
+                    <span id="seconds">00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="about-inner">
+            <!--
+            use keyframes to do cool stuff 
+            with traffic light
+            --> 
+
+            <div class="box">
+                <div class="title-box">
+                    <h2 class="title">About</h2>
+                </div>
+                <div class="text">
+                    <p class="ab-1">
+                        PCSS II Robotics is a 501(c)(3) non-profit that aims to provide students with the opportunity to develop their technological skills and compete globally, without being limited by their resources or circumstances.
+                    </p>
+                    <p class="ab-2">
+                        Circuit is the latest hackathon being held by PCSSII Robotics. With a racing theme, attendees build projects over a 2-day period from 8AM to 8PM, competing for big-ticket prizes and learning skills along the way.
+                    </p>
+                    <p class="ab-3">
+                        It's being held at Pioneer Charter School of Science II from 8 AM to 8 PM from June 6th to June 7th.
+                    </p>
+                </div>
+            </div>
+
+            <div class="traffic-outer">
+                <div class="light red"></div>
+                <div class="light yellow"></div>
+                <div class="light green"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="schedule" id="schedule">
+        <div class="schedule-title">
+            SCHEDULE
+        </div>
+
+        <div class="board">
+            <div class="sub-day">
+                <div class="day-head">
+                    <strong>
+                        Saturday, June 6
+                    </strong>
+                </div>
+                <div class="row">
+                    <div class="event">Check-in Opens</div>
+                    <div class="time">8:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Breakfast Bar Opens</div>
+                    <div class="time">8:15</div>
+                </div>
+                <div class="row">
+                    <div class="event">Opening Ceremony</div>
+                    <div class="time">9:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Workshop 1 (TBD)</div>
+                    <div class="time">10:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Lunch</div>
+                    <div class="time">12:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Guest Speaker (TBD)</div>
+                    <div class="time">12:45</div>
+                </div>
+                <div class="row">
+                    <div class="event">Working Time / Workshop 2 (TBD)</div>
+                    <div class="time">2:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Minigame (with prizes, TBD)</div>
+                    <div class="time">4:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Working Time / Workshop 3 (TBD)</div>
+                    <div class="time">5:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Dinner</div>
+                    <div class="time">7:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Dessert</div>
+                    <div class="time">7:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Day 1 Closing</div>
+                    <div class="time">7:45</div>
+                </div>
+                <div class="row">
+                    <div class="event">End of Day 1</div>
+                    <div class="time">8:00</div>
+                </div>
+            </div>
+            <div class="sub-day">
+                <div class="day-head">
+                    <strong>
+                        Sunday, June 7  
+                    </strong>
+                </div>
+                <div class="row">
+                    <div class="event">Check-in Opens</div>
+                    <div class="time">8:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Breakfast Bar Opens</div>
+                    <div class="time">8:15</div>
+                </div>
+                <div class="row">
+                    <div class="event">Opening Ceremony</div>
+                    <div class="time">9:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Working Time / Workshop 1 Encore (TBD)</div>
+                    <div class="time">10:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Lunch</div>
+                    <div class="time">12:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Working Time</div>
+                    <div class="time">2:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Minigame (with prizes, TBD)</div>
+                    <div class="time">4:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Working Time</div>
+                    <div class="time">5:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Dinner</div>
+                    <div class="time">6:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Dessert</div>
+                    <div class="time">7:00</div>
+                </div>
+                <div class="row">
+                    <div class="event">Submission</div>
+                    <div class="time">7:15</div>
+                </div>
+                <div class="row">
+                    <div class="event">Voting</div>
+                    <div class="time">7:30</div>
+                </div>
+                <div class="row">
+                    <div class="event">Closing Ceremony</div>
+                    <div class="time">7:45</div>
+                </div>
+                <div class="row">
+                    <div class="event">End of Hackathon</div>
+                    <div class="time">8:00</div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="speakers" id="speakers">
+            <div class="speaker-title">
+                Speakers
+            </div>
+            <div class="speaker-cont">
+                <div class="speaker-mod">
+                    <div class="speaker-img">
+
+                    </div>
+                    <div class="speaker-name">
+                        Coming Soon!
+                    </div>
+                    <div class="speaker-text">
+                        (TBD) Lorem ipsum dolor sit amet, adipisicing ... elite?
+                    </div>
+                </div>
+            </div>
+            <div class="speaker-ribbon"></div>
+        </div>
+
+    </div>
+
+    <div class="sponsors" id="sponsors">
+        <div class="sponsor-title">
+            Sponsorship
+        </div>
+
+        <div class="sponsor-cont">
+
+            <div class="sponsor-desc">
+                <span>Want to sponsor us? Reach out to <a class="email-link" href="mailto:pcssiirobotics@gmail.com">pcssiirobotics@gmail.com</a> for details on sponsorship.</span>
+            </div>
+
+            <div class="tier-cont">
+
+                <div class="sponsor-title tier">
+                    Sponsorship Tiers
+                </div>
+
+                <div class="tier-bloc gold">
+                    <div class="tier-subtitle gold-title">
+                        Gold
+                    </div>
+                    <div class="sponsor-list">Coming Soon!</div>
+                </div>
+
+                <div class="tier-bloc silver">
+                    <div class="tier-subtitle silver-title">
+                        Silver
+                    </div>
+                    <div class="sponsor-list">Coming Soon!</div>
+                </div>
+
+                <div class="tier-bloc bronze">
+                    <div class="tier-subtitle bronze-title">
+                        Bronze
+                    </div>
+                    <div class="sponsor-list">Coming Soon!</div>
+                </div>
+            </div>
+
+        </div>
+        
+        <footer>
+            <span>Circuit 2026</span>
+            <span>Made with :) by PCSSII Robotics</span>
+        </footer>
+
+    </div>
+
+</body>
+</html>
