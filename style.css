@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     background-color: #1E1E1E;
     width: 100%;
