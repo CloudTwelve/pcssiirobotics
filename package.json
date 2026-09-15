@@ -22,12 +22,12 @@
     "audit:high": "npm audit --audit-level=high"
   },
   "dependencies": {
-    "@puckeditor/core": "^0.21.2",
-    "@tanstack/react-router": "1.139.16",
-    "@tanstack/react-table": "^8.21.3",
-    "lucide-react": "^0.468.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@puckeditor/core": "^0.23.0",
+    "@tanstack/react-router": "1.170.35",
+    "@tanstack/react-table": "^9.2.4",
+    "lucide-react": "^1.45.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
@@ -37,6 +37,6 @@
     "vite": "^6.4.2"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.60.4"
+    "@rollup/rollup-linux-x64-gnu": "^4.63.2"
   }
 }
