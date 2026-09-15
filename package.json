@@ -1,0 +1,42 @@
+{
+  "name": "pcssiirobotics",
+  "version": "0.1.0",
+  "description": "PCSS II Robotics website built with React and Vite.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CloudTwelve/pcssiirobotics.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "build:ci": "npm run build && npm run size:check",
+    "preview": "vite preview --host 127.0.0.1",
+    "lint": "eslint . --ext js,jsx --max-warnings=0",
+    "size:check": "node scripts/check-bundle-size.mjs",
+    "lighthouse": "npx @lhci/cli@0.15.x autorun --config=.lighthouserc.json",
+    "audit:high": "npm audit --audit-level=high"
+  },
+  "dependencies": {
+    "@puckeditor/core": "^0.21.2",
+    "@tanstack/react-router": "1.139.16",
+    "@tanstack/react-table": "^8.21.3",
+    "lucide-react": "^0.468.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "vite": "^6.4.2"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.60.4"
+  }
+}
